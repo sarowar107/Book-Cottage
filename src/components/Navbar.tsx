@@ -12,7 +12,7 @@ const Navbar: React.FC<NavbarProps> = ({ onSearch, cartCount }) => {
     return (
         <nav className='bg-gradient-to-r from-sky-900 to-pink-800 text-text p-2 flex items-center justify-between shadow-lg sticky top-0 z-20 border-b border-primary/20'>
             <Link to='/' className='text-4xl font-extrabold text-primary hover:text-accent transition-colors duration-300 tracking-wide'>
-                Book<span className='text-secondary'>Verse</span>
+                Book<span className='text-secondary'>Cottage</span>
             </Link>
             <div className='flex items-center space-x-8'>
                 <SearchBar onSearch={onSearch} />
